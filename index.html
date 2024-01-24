@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Língua do P</title>
+</head>
+
+<body class="container">
+    <header class="cabecalho">
+        <video autoplay muted loop class="video">
+            <source src="./logo.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </header>
+    <main class="apresentacao">
+        <section class="input">
+            <textarea class="input-botao" id="meuTextArea" placeholder="Digite seu texto aqui!"></textarea>
+            <div class="botao">
+                <button onclick="capturarTexto()" class="cripto">Criptografar</button>
+                <button onclick="DesCapturarTexto()" class="descripto">Descriptografar</button>
+            </div>
+        </section>
+        <div class="span">
+            <span class="span-texto">
+                <p id="mensagem">
+                    Nenhuma mensagem encontrada
+                    Digite um texto que você deseja criptografar ou descriptografar.
+                </p>
+            </span>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por @Marthons</p>
+    </footer>
+</body>
+
+</html>

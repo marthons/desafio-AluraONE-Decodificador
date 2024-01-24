@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url('./meuPeLaranjaLima.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cabecalho {
+    margin-right: 81rem;
+    width: 4%;
+}
+
+.apresentacao {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    border-radius: 3rem;
+}
+
+.input {
+    width: 75%;
+    height: auto;
+    border-radius: 1rem;
+    border: solid #FCAD14;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-botao {
+    background-color: rgba(248, 170, 98, 0);
+    width: 90%;
+    height: 615px;
+    padding: 50px;
+    border: none;
+}
+
+.botao {
+    top: 670px;
+    left: 500px;
+}
+
+button {
+    background-color: #FCAD14;
+    box-sizing: border-box;
+    -webkit-box-shadow: -43px 16px 41px -24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -43px 16px 41px -24px rgba(0, 0, 0, 0.75);
+    box-shadow: -43px 16px 41px -24px rgba(0, 0, 0, 0.75);
+    border-radius: 1.5rem;
+    width: 7.5rem;
+    height: 2rem;
+}
+
+.span {
+    width: 25%;
+    height: auto;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    padding: 2%;
+    border: 1.5px solid #503104;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #FCAD14;
+    border-radius: 6px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #FCAD14;
+}
+
+.rodape {
+    color: #503104;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 1200px){
+
+    .cabecalho {
+        margin: 0;
+    }
+    
+    .apresentacao {
+        display: flex;
+    }
+
+    .input {
+        width: auto;
+    }
+
+    .input-botao {
+        padding: 5%;
+    }
+
+    .span {
+        width: 30%;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+}
